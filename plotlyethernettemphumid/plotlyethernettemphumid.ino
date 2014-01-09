@@ -59,9 +59,10 @@ void loop() {
     plotly.open_stream(1, 2, filename, layout);
 
       plotly.post(millis(),h); // post humidity to plotly
-      delay(750);
+      delay(150);
       plotly.post(millis(),t); // post temperature to plotly
-      for(int i=0; i<10; i++){
+      
+      for(int i=0; i<300; i++){
       delay(1000);
       Serial.println(i+1);
       }
