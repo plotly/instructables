@@ -17,9 +17,9 @@ DHT dht(DHTPIN, DHTTYPE); // Initialize DHT object
 // View your tokens here: https://plot.ly/settings
 // Supply as many tokens as data traces
 // e.g. if you want to ploty A0 and A1 vs time, supply two tokens
-char *tokens[nTraces] = {"token_1", "token_2"};
+char *tokens[nTraces] = {"fill_in_your_token_1_here", "fill_in_your_token_2_here"};
 // arguments: username, api key, streaming token, filename
-plotly graph = plotly("plotly_username", "plotly_api_key", tokens, "your_filename", nTraces);
+plotly graph = plotly("fill_in_your_plotly_username_here", "fill_in_your_plotly_api_key_here", tokens, "fill_in_your_filename_here", nTraces);
 
 
 // Ethernet Setup
